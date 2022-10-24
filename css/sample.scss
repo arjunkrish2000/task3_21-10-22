@@ -1,0 +1,32 @@
+@mixin borderedStyle($width, $color) {
+
+    border: $width solid $color;
+}
+
+.div-border{
+    @include borderedStyle(2px, green);
+}
+
+textarea{
+    @include borderedStyle(3px, blue )
+}
+
+nav{
+    ul{
+margin: 0;
+padding: 0;
+list-style: none;
+
+    }
+    li{
+
+        display:
+
+    }
+    a{
+        display: block;
+        padding: 6px, 12px;
+        text-decoration: none;
+
+    }
+}
